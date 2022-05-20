@@ -10,7 +10,7 @@ function Footer({ footer }) {
         data-aos-easing="ease-in-sine"
         >
             <div className='Info'>
-                <span className='Info__create'>CreateBy: {footer.create} 👨‍🎓</span>
+                <span className='Info__create'>CreatedBy: {footer.create} 👨‍🎓</span>
                 <span className='Info__info'>{footer.info}</span>
             </div>
             <div className='Footer'>
