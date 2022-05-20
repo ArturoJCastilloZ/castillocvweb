@@ -1,0 +1,44 @@
+@import '../../styles/_colors';
+@import '../../styles/_fonts';
+
+.Descriptions{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    // margin-top: 1rem;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    min-height: 10rem;
+    &__item {
+        text-align: center;
+        margin: 0 1rem;
+        flex-basis: 25%;
+        min-width: 300px;
+        font-family: $font-subTitle;
+        color: $color-link;
+    }
+    &__year::after {
+        content: "*";
+        height: 2px;
+        margin-left: 1rem;
+        top: 50%;
+        color: $color-link;
+    }
+    &__text {
+        font-family: $font-primary;
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: $color-link;
+    }
+    &__intitution {
+        font-family: $font-primary;
+        font-size: 1.35rem;
+        text-align: center;
+        color: $color-link;
+    }
+    &__title {
+        font-family: $font-primary;
+        text-align: center;
+        color: $color-after;
+    }
+}

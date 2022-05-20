@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Hero from './componentes/hero/Hero';
+import Portfolio from './componentes/portfolio/Portfolio';
+import Curriculum from './componentes/curriculum/Curriculum';
+import Footer from './componentes/footer/Footer';
+import { FAKE_DB } from './fakeDB/fakeDB';
+
+const {hero, curriculumSection, portfolio, footer} = FAKE_DB;
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hero hero={hero}/>
+      <Curriculum curriculumSection={curriculumSection} />
+      <Portfolio portfolio={portfolio}/>
+      <Footer footer={footer} />
     </div>
   );
 }

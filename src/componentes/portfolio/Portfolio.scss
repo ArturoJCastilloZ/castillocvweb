@@ -1,0 +1,24 @@
+@import '../../styles/_colors';
+@import '../../styles/_fonts';
+
+.Portfolio {
+    background: linear-gradient(180deg, rgba(94,138,255,1) 6%, rgba(114,153,255,1) 42%, rgba(0,221,255,1) 96%);
+    margin: 0 auto;
+    max-width: 1800px;
+    padding: 1% 10%;
+    &__title {
+        font-size: 72px;
+        background: -webkit-linear-gradient(#91ceff, #62e0ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: $font-subTitle;
+        margin-bottom: 3rem;
+        font-size: 4rem;
+        text-align: center;
+    }
+    &__wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
