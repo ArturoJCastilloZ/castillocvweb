@@ -15,10 +15,10 @@ function Footer({ footer }) {
             </div>
             <div className='Footer'>
                 <div className='Footer__linked'>
-                    <a href={footer.linkedin} target="_blank" className='Footer__link'>
+                    <a href={footer.linkedin} target="_blank" rel="noreferrer" className='Footer__link'>
                         <LinkedInIcon fontSize="large"/>
                     </a>
-                    <a href={footer.web} target="_blank" className='Footer__link'>
+                    <a href={footer.web} target="_blank" rel="noreferrer" className='Footer__link'>
                         <WebIcon fontSize="large"/>
                     </a>
                 </div>

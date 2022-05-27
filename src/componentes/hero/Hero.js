@@ -11,13 +11,13 @@ function Hero({ hero }) {
                 data-aos="fade-left"
                 data-aos-offset="200"
                 data-aos-delay="50"
-                data-aos-duration="2000"
+                data-aos-duration="3000"
                 data-aos-easing="ease-in-out"
             >
                 <img src={hero.url} alt={hero.alt}/>
             </div>
             <div className='Hero__info' 
-            data-aos="fade-up" 
+            data-aos="fade-down" 
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             >                
@@ -29,10 +29,10 @@ function Hero({ hero }) {
                         <a href={`mailto:${hero.email}`} className="Hero__link">
                             <ContactMailIcon fontSize="large" />
                         </a>
-                        <a href={hero.github} target="_blank" className="Hero__link">
+                        <a href={hero.github} target="_blank" rel="noreferrer" className="Hero__link">
                             <GitHubIcon fontSize="large" />
                         </a>
-                        <a href={hero.web} target="_blank" className='Hero__link'>
+                        <a href={hero.web} target="_blank" rel="noreferrer" className='Hero__link'>
                         <WebIcon fontSize="large"/>
                     </a>
                     </li>

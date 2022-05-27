@@ -10,11 +10,11 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 0 auto;
-    max-width: 1000px;
+    // max-width: 1800px;
     padding: 5% 15%;
     overflow: hidden;
     &__info {
-        flex-basis: 30%;
+        // flex-basis: 30%;
         // min-width: 300px;
         margin-bottom: 2rem;
         margin-top: 5rem;
@@ -52,11 +52,11 @@
         &:hover{
             color: $color-primary;
             text-decoration: underline;
-            font-size: 25px;
+            // font-size: 25px;
         }
     }
     &__image {
-        flex-basis: 30%;
+        // flex-basis: 30%;
         min-width: 300px;
         & > img {
             width: 300px;
