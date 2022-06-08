@@ -1,6 +1,8 @@
 import img1 from '../assets/img2.png';
 import myweb from '../assets/mi-web.png';
 import code from '../assets/code.png';
+import memo from '../assets/memorama.png';
+import memoweb from '../assets/memo-code.png';
 
 export const FAKE_DB = {
     hero: {
@@ -64,7 +66,7 @@ export const FAKE_DB = {
     portfolio: [
         {
             url: myweb,
-            alt: "Mi primer web hosteada",
+            alt: "My first hosted web",
             site: "https://arturocastillocv.vercel.app/",
             description: "My first hosted web development was my resume. I liked how my page was taking shape while I was learning to use the reactjs framework. Although it is something basic and simple, it is motivating to see how to get things out even without having prior knowledge of this framework."
         },
@@ -73,6 +75,18 @@ export const FAKE_DB = {
             alt: "Codigo de la web hosteada",
             site: "https://github.com/ArturoJCastilloZ/arturocastillocv",
             description: "This is a part of the code of my first web page hosted."
+        },        
+        {
+            url: memo,
+            alt: "Memorama game",
+            site: "https://memorama-nu.vercel.app/",
+            description: "Memorama game with programming images created in Javascript."
+        },
+        {
+            url: memoweb,
+            alt: "Memorama code",
+            site: "https://github.com/ArturoJCastilloZ/memorama",
+            description: "Game source code."
         }
     ],
     footer: {
