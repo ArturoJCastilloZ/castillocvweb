@@ -1,3 +1,6 @@
+
+<img width="960" alt="cvweb" src="https://user-images.githubusercontent.com/49053045/173957457-f580d86f-38f0-4e97-a3f4-586d7fa5b462.png">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
